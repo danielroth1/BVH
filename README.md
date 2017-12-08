@@ -4,13 +4,15 @@ Implementation of a bounding volume hierarchy with a in real-time updating visua
 
 ## Installation
 ```
-git clone https://github.com/danielroth1/BVH.git
-cd BVH
-mkdir build
-javac src/logic/GameControl.java -d build -sourcepath src/
+git clone https://github.com/danielroth1/BVH.git && cd BVH && mkdir build && javac src/logic/GameControl.java -d build -sourcepath src/
+```
+
+## Execution
+```
 cd build
 java logic.GameControl
 ```
+
 ## Controls
 
 | Key | Action |
