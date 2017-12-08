@@ -85,7 +85,7 @@ public class World {
 			
 			if (node.getCenterOrientation() == WorldNode.CENTER_X){
 				//sort by x-axis
-				if (centerX>node.getCenter())//go right TODO: Problem beim Einfügen eines Objektes
+				if (centerX>node.getCenter())//go right
 					isRight = true;
 				else if (centerX<node.getCenter())//go left
 					isRight = false;
